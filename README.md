@@ -16,7 +16,7 @@ docker-compose up -d
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/camilovegag/PICA.git
+git clone https://github.com/camilovegag/MPD
 cd PICA
 ```
 
