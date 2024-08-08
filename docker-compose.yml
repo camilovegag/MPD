@@ -1,6 +1,6 @@
 services:
   mysql:
-    image: mysql:5.7
+    image: mysql:8.0
     container_name: mysql_db
     restart: unless-stopped
     environment:
@@ -15,7 +15,7 @@ services:
       - ./mysqlsampledatabase.sql:/docker-entrypoint-initdb.d/mysqlsampledatabase.sql
 
   postgres:
-    image: postgres:13
+    image: postgres:13-alpine
     container_name: postgres_db
     restart: unless-stopped
     environment:
