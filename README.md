@@ -34,7 +34,7 @@ POSTGRES_PORT=5432
 Para iniciar los servicios de base de datos, usa el siguiente comando:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Comandos docker exec
