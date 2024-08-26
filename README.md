@@ -4,20 +4,12 @@
 
 Este proyecto configura y ejecuta dos bases de datos utilizando Docker: MySQL y PostgreSQL. Incluye un archivo de configuración para Docker Compose y comandos para interactuar con las bases de datos.
 
-## Comando para Ejecutar Docker Compose
-
-Para iniciar los servicios de base de datos, usa el siguiente comando:
-
-```bash
-docker-compose up -d
-```
-
 ## Configuración del Entorno
 1. Clona el repositorio:
 
 ```bash
 git clone https://github.com/camilovegag/MPD
-cd PICA
+cd MPD
 ```
 
 2. Crea un archivo .env en la raíz del proyecto, puedes guiarte del `.env.example` o utilizar la siguiente configuración:
@@ -35,6 +27,14 @@ POSTGRES_USER=user
 POSTGRES_PASSWORD=password
 POSTGRES_DB=customerservice
 POSTGRES_PORT=5432
+```
+
+## Comando para Ejecutar Docker Compose
+
+Para iniciar los servicios de base de datos, usa el siguiente comando:
+
+```bash
+docker-compose up -d
 ```
 
 ## Comandos docker exec
